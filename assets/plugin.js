@@ -2,7 +2,8 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
   var pluginConfig = {};
 
   function initializePlugin(config) {
-    pluginConfig = config.code;
+    pluginConfig = config.rebate;
+    console.log(pluginConfig)
   }
 
   gitbook.events.bind('start', function(e, config) {
